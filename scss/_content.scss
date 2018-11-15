@@ -1,0 +1,81 @@
+$padding: 3%;
+$fontcolor: white;
+
+section {
+  background-color: white;
+  width: 70%;
+  margin: 2% auto 0%;
+  padding: 2% 0% 2% 2%;
+  display: grid;
+  grid-template-rows: 10% 50%;
+  grid-template-columns: 32% 32% 32%;
+
+  .lastjedi {
+    background-image: url("../img/back1.jpg");
+    background-size: auto;
+    color: $fontcolor;
+    text-align: right;
+    padding: 3% 4%;
+    grid-row: 1/2;
+    grid-column: 1/4;
+
+    span {
+      color: red;
+    } /*Cierra span*/
+  } /*Cierra .lastjedi*/
+
+  .p {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 100%;
+    padding: 0% 4% 2% 0%;
+    margin: 6% 0% 0% 0%;
+    border-right: dotted red 4px;
+
+    .per {
+      background-color: red;
+      color: $fontcolor;
+      padding: $padding;
+    } /*Cierra per*/
+  } /*Cierra p*/
+
+  .c {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
+    padding: 0% 4% 2% 4%;
+    margin: 6% 0% 0% 0%;
+    border-right: dotted blue 4px;
+
+    .cas {
+      background-color: blue;
+      color: $fontcolor;
+      padding: $padding;
+    } /*Cierra cas*/
+  } /*Cierra c*/
+
+  .r {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 100%;
+    padding: 0% 0% 2% 4%;
+    margin: 6% 0% 0% 0%;
+
+    .rod {
+      background-color: green;
+      color: $fontcolor;
+      padding: $padding;
+    } /*Cierra rod*/
+  }/*Cierra r*/
+
+  article p,
+  article ul {
+    padding: 4% 0% 0% 0%;
+    line-height: 150%;
+
+    article ul li {
+      padding: 2%;
+      line-height: 110%;
+    }/*Cierra article ul li*/
+  }/*Cierra article p, ul*/
+} /*Cierra section*/
