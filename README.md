@@ -1,1 +1,1 @@
-A website with star wars content styled with the css pre-processor sass.
+A website with star wars content, styled with the css pre-processor sass with the newer syntax sassy.
