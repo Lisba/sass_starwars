@@ -13,7 +13,7 @@ body {
 
 /*Cierra el body*/
 section {
-  background-color: white;
+  background-color: #fdfcfc;
   width: 70%;
   margin: 2% auto 0%;
   padding: 2% 0% 2% 2%;
@@ -28,7 +28,7 @@ section {
   section .lastjedi {
     background-image: url("../img/back1.jpg");
     background-size: auto;
-    color: white;
+    color: #fdfcfc;
     font-size: 1.5rem;
     text-align: right;
     padding: 3% 4%;
@@ -47,7 +47,7 @@ section {
     /*Cierra per*/ }
     section .p .per {
       background-color: red;
-      color: white;
+      color: #fdfcfc;
       padding: 3%; }
   section .c {
     grid-column: 2/3;
@@ -59,7 +59,7 @@ section {
     /*Cierra cas*/ }
     section .c .cas {
       background-color: blue;
-      color: white;
+      color: #fdfcfc;
       padding: 3%; }
   section .r {
     grid-column: 3/4;
@@ -70,7 +70,7 @@ section {
     /*Cierra rod*/ }
     section .r .rod {
       background-color: green;
-      color: white;
+      color: #fdfcfc;
       padding: 3%; }
   section article p,
   section article ul {
